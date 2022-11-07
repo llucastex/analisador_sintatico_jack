@@ -66,7 +66,7 @@ public class ParserTest extends TestSupport {
         assertEquals(expectedResult, result);
     }
 
-/* 
+
     @Test
     public void testParseIf() {
         var input = "if (direction = 1) { do square.moveUp(); }";
@@ -173,7 +173,7 @@ public class ParserTest extends TestSupport {
              }
                 """;;
         var parser = new Parser(input.getBytes(StandardCharsets.UTF_8));
-        parser.parseSubroutineDec();
+        parser.parseSubRoutineDec();
         var expectedResult = """
             <subroutineDec>
             <keyword> constructor </keyword>
@@ -317,6 +317,6 @@ public class ParserTest extends TestSupport {
 
     }
 
-    */
+    
 
 }
